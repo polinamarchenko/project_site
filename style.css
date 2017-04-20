@@ -2,19 +2,21 @@ body {
   color: #fff;
   background-color: #234;
   font-family: 'Titillium Web', sans-serif;
+  text-align: center;
+}
+
+.trump {
   background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://images6.alphacoders.com/592/592187.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   text-align: center;
 }
-
 .center {
   margin: auto;
   width: 70%;
   padding: 10px;
 }
-
 
 .btn-quote {
   font-size: 15px;
@@ -45,8 +47,21 @@ span {
 h1 {
   font-size: 50px;
 }
+
+h2 {
+  font-size: 40px;
+}
+
 h3 {
   font-size: 30px;
   font-weight: 600;
   font-style: italic;
+}
+
+footer {
+  min-height: 50px;
+  background-color: white;
+  color: #234;
+  font-weight: 600;
+  margin-top: 10px;
 }

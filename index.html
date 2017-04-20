@@ -9,8 +9,11 @@
     <title>Trump App</title>
   </head>
   <body>
-    <div class="center">
-      <h1>Make America <span>look weird</span> Again</h1>
+    <header>
+      <h1>My fun projects</h1>
+    </header>
+    <section class="trump center">
+      <h2>Make America <span>look weird</span> Again</h2>
       <button class="btn-quote" onclick="getGif(); getQuote();" type="button" name="button">NEW QUOTE &amp; GIF</button>
 
       <div id="js-gif"><img src="https://media.giphy.com/media/3ornjH3y2626YTYa5i/giphy.gif" alt="gifStart" class="gif"/></div>
@@ -18,7 +21,18 @@
       <div id="js-quote"><h3>"I have an attention span that's as long as it has to be. "</h3></div>
 
       <a href="" id="tweet-this"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-    </div>
+    </section>
+
+    <section class="contact">
+      <form class="" action="index.html" method="post">
+        <div>
+          <label for="Email">Let's stay in touch</label>
+          <input type="email" name="Email" value="Email">
+        </div>
+      </form>
+    </section>
+
+    <footer>&copy; 2017 COPYWRITE Polina Marchenko </footer>
 
     <script src="jquery-3.1.1.min.js"></script>
     <script src="jquery.waypoints.min.js"></script>
