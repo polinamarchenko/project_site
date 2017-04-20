@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:200,600i,700" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://use.fontawesome.com/ee7b7f5360.js"></script>
+    <title>Trump App</title>
+  </head>
+  <body>
+    <div class="center">
+      <h1>Make America <span>look weird</span> Again</h1>
+      <button class="btn-quote" onclick="getGif(); getQuote();" type="button" name="button">NEW QUOTE &amp; GIF</button>
+
+      <div id="js-gif"><img src="https://media.giphy.com/media/3ornjH3y2626YTYa5i/giphy.gif" alt="gifStart" class="gif"/></div>
+
+      <div id="js-quote"><h3>"I have an attention span that's as long as it has to be. "</h3></div>
+
+      <a href="" id="tweet-this"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    </div>
+
+    <script src="jquery-3.1.1.min.js"></script>
+    <script src="jquery.waypoints.min.js"></script>
+    <script type="text/javascript" async src="https://platform.twitter.com/widgets.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

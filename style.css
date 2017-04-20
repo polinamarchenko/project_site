@@ -1,0 +1,52 @@
+body {
+  color: #fff;
+  background-color: #234;
+  font-family: 'Titillium Web', sans-serif;
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://images6.alphacoders.com/592/592187.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+.center {
+  margin: auto;
+  width: 70%;
+  padding: 10px;
+}
+
+
+.btn-quote {
+  font-size: 15px;
+  padding: 20px;
+  border-style: 0.5px solid red;
+  border-radius: 4px;
+  background-color: red;
+  color: white;
+  margin: 0px auto 25px auto;
+}
+
+a {
+  font-size: 40px;
+  color: red;
+}
+
+.gif {
+  height: 300px;
+  width: auto;
+}
+
+span {
+  font-weight: 200;
+  color: red;
+  letter-spacing: 3px;
+}
+
+h1 {
+  font-size: 50px;
+}
+h3 {
+  font-size: 30px;
+  font-weight: 600;
+  font-style: italic;
+}
