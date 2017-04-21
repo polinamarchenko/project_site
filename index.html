@@ -47,50 +47,69 @@
         </div>
     </nav>
 
-    <section class="about">
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-md-3 col-md-offset-1">
-            <img class="img-responsive" src="portrait.jpg" alt="Polina">
+        <div class="col-md-12 bg-info">
+          <h4>ABOUT</h4>
         </div>
-        <div class="col-md-5 col-md-offset-1">
-          <ul class="desctription">
-            <li><h4>Marketer turned developer.</h4></li>
-            <li><h4>Curious about what I've been working before, check <a href="http://polinamarchenko.github.io/" target="_blank">my personal site</a></h4></li>
-            <li><h4>I am currently going through the immersive coding bootcamp in San Francisco</h4></li>
-            <li><h4>I created this site to showcase different fun projects I'll be working on for the next 3 months</h4></li>
-            <li><h4>Stay tuned!</h4></li>
-          </ul>
+      </div>
+    </div>
+
+
+    <section class="about">
+      <div class="container-fluid">
+        <div class="row center">
+          <div class="col-md-3 col-md-offset-1">
+              <img class="img-responsive" src="portrait.jpg" alt="Polina">
+          </div>
+          <div class="col-md-6">
+            <ul class="desctription">
+              <li><h4>Marketer turned developer.</h4></li>
+              <li><h4>Curious about what I've been working before, check <a href="http://polinamarchenko.github.io/" target="_blank">my personal site</a></h4></li>
+              <li><h4>I am currently going through the immersive coding bootcamp in San Francisco</h4></li>
+              <li><h4>I created this site to showcase different fun projects I'll be working on for the next 3 months</h4></li>
+              <li><h4>Stay tuned!</h4></li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 bg-info">
+          <h4>PROJECTS</h4>
+        </div>
+      </div>
+    </div>
+
     <section class="projects">
       <div class="row">
-        <div class="trump col-md-6">
+        <div class="trump col-md-5">
           <h2>Make America <span>look weird</span> Again</h2>
           <button class="btn btn-danger" onclick="getGif(); getQuote();" type="button" name="button">NEW QUOTE &amp; GIF</button>
 
-          <div id="js-gif"><img src="https://media.giphy.com/media/3ornjH3y2626YTYa5i/giphy.gif" alt="gifStart" class="gif"/></div>
+          <div id="js-gif" class="trump-gif"><img src="https://media.giphy.com/media/3ornjH3y2626YTYa5i/giphy.gif" alt="gifStart" class="gif"/></div>
 
           <a href="" id="tweet-this"><i class="fa fa-twitter" aria-hidden="true"></i></a>
           <div id="js-quote"><h3>"I have an attention span that's as long as it has to be. "</h3></div>
 
         </div>
 
-        <div class="project col-md-6">
+        <div class="project col-md-5">
           <h2><span>Coming soon</span></h2>
           <img src="progress.png" alt="Progress Bar">
         </div>
 
-        <div class="project col-md-6">
+        <div class="project col-md-5">
           <h2><span>Coming soon</span></h2>
           <img src="progress.png" alt="Progress Bar">
         </div>
 
-        <div class="project col-md-6">
+        <div class="project col-md-5">
           <h2><span>Coming soon</span></h2>
           <img src="progress.png" alt="Progress Bar">
         </div>
-
     </section>
 
     <footer>&copy; 2017 COPYWRITE Polina Marchenko </footer>
