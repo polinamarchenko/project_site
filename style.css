@@ -157,9 +157,9 @@ span {
 }
 
 footer {
-  min-height: 50px;
-  background-color: white;
+  min-height: 5rem;
+  background-color: #ef3502;
   color: #234;
   font-weight: 600;
-  margin-top: 10px;
+  padding-top: 1.5rem;
 }
