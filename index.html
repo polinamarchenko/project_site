@@ -11,10 +11,24 @@
   </head>
   <body>
     <header>
-      <h1>Welcome to my world</h1>
+      <div class="container">
+        <div class="row center">
+          <h1>I/Build</h1>
+          <h2>Cool Staff</h2>
+          <h3>Want to know what's coming, let's stay connected</h3>
+          <div class="connect col-lg-4 col-lg-offset-4">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Enter your email address">
+              <span class="input-group-btn">
+                <button class="btn btn-danger" type="button">Get notified</button>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
 
-    <nav class="navbar navbar-inverse">
+    <nav class="navbar navbar-default">
         <div class="container">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
             <span class="sr-only">Toggle navigation</span>
@@ -30,26 +44,39 @@
             <li><a href="#">About Polina</a></li>
             <li><a href="#">Proooojects</a></li>
           </ul>
-        </div>  
-    </nav>
-    <section class="trump center">
-      <h2>Make America <span>look weird</span> Again</h2>
-      <button class="btn-quote" onclick="getGif(); getQuote();" type="button" name="button">NEW QUOTE &amp; GIF</button>
-
-      <div id="js-gif"><img src="https://media.giphy.com/media/3ornjH3y2626YTYa5i/giphy.gif" alt="gifStart" class="gif"/></div>
-
-      <div id="js-quote"><h3>"I have an attention span that's as long as it has to be. "</h3></div>
-
-      <a href="" id="tweet-this"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-    </section>
-
-    <section class="contact">
-      <form class="" action="index.html" method="post">
-        <div>
-          <label for="Email">Let's stay in touch</label>
-          <input type="email" name="Email" value="Email">
         </div>
-      </form>
+    </nav>
+
+    <section class="about">
+      <div class="row">
+        <div class="col-md-3 col-md-offset-1">
+            <img src="portrait.jpg" alt="Polina">
+        </div>
+        <div class="col-md-5 col-md-offset-1">
+          <h4>Marketer turned developer.</h4>
+          <h4>Curious about what I've been working before, check <a href="http://polinamarchenko.github.io/" target="_blank">my personal site</a></h4>
+
+        </div>
+      </div>
+    </section>
+    <section class="projects">
+      <div class="row">
+        <div class="trump col-md-6">
+          <h2>Make America <span>look weird</span> Again</h2>
+          <button class="btn-quote" onclick="getGif(); getQuote();" type="button" name="button">NEW QUOTE &amp; GIF</button>
+
+          <div id="js-gif"><img src="https://media.giphy.com/media/3ornjH3y2626YTYa5i/giphy.gif" alt="gifStart" class="gif"/></div>
+
+          <div id="js-quote"><h3>"I have an attention span that's as long as it has to be. "</h3></div>
+
+          <a href="" id="tweet-this"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        </div>
+
+        <div class="project col-md-6">
+          <h2><span>Coming soon</span></h2>
+          <img src="progress.png" alt="Progress Bar">
+      </div>
+
     </section>
 
     <footer>&copy; 2017 COPYWRITE Polina Marchenko </footer>

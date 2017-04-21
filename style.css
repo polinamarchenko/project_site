@@ -5,11 +5,84 @@ body {
   text-align: center;
 }
 
+/*General*/
+h1 {
+  font-size: 5rem;
+  margin-top: 0;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 3rem;
+  font-weight: 600;
+  font-style: italic;
+}
+
+h4 {
+  font-size: 2.5rem;
+}
+
+a span {
+  font-style: normal;
+  font-size: 2.5rem;
+}
+
+section {
+  margin-bottom: 5rem;
+  text-align: left;
+}
+
+/*Header*/
+header {
+  min-height: 50rem;
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("intro.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.center {
+  margin-top: 10rem;
+}
+
+.connect {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.btn-danger {
+  background-color: #ef3502;
+  border-color: #ef3502;
+}
+
+/*Navigation*/
+
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
   vertical-align: top;
 }
+
+.navbar-default {
+  background-color: #ef3502;
+  border-color: #ef3502;
+}
+
+.navbar-default .navbar-nav>li>a:visited,
+.navbar-default .navbar-nav>li>a:link {
+  color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #771b02;
+}
+/*Projects*/
 
 .trump {
   background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://images6.alphacoders.com/592/592187.jpg");
@@ -17,26 +90,51 @@ body {
   background-position: center;
   background-attachment: fixed;
   text-align: center;
+  height: 70rem;
 }
-.center {
-  margin: auto;
-  width: 70%;
-  padding: 1rem;
+
+.project {
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  background-attachment: local;
+  text-align: center;
+  height: 70rem;
+}
+
+.project img {
+  margin-top: 5rem;
+}
+
+.about img {
+  border-radius: 20rem;
+  height: 30rem;
+  width: auto;
+}
+
+.about a:link,
+.about a:visited {
+  font-size: 3rem;
+}
+
+.about a:hover,
+.about a:active {
+  text-decoration: none;
 }
 
 .btn-quote {
   font-size: 15px;
   padding: 20px;
-  border-style: 0.5px solid red;
+  border-style: 0.5px solid #ef3502;
   border-radius: 4px;
-  background-color: red;
+  background-color: #ef3502;
   color: white;
   margin: 0px auto 25px auto;
 }
 
 a {
   font-size: 4rem;
-  color: red;
+  color: #ef3502;
 }
 
 li a {
@@ -50,22 +148,8 @@ li a {
 
 span {
   font-weight: 200;
-  color: red;
+  color: #ef3502;
   letter-spacing: 3px;
-}
-
-h1 {
-  font-size: 5rem;
-}
-
-h2 {
-  font-size: 4rem;
-}
-
-h3 {
-  font-size: 3rem;
-  font-weight: 600;
-  font-style: italic;
 }
 
 footer {
