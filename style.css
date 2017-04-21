@@ -26,19 +26,14 @@ h4 {
   font-size: 2.5rem;
 }
 
-a span {
-  font-style: normal;
-  font-size: 2.5rem;
-}
-
 section {
-  margin-bottom: 5rem;
+  margin-bottom: 1rem;
   text-align: left;
 }
 
 /*Header*/
 header {
-  min-height: 50rem;
+  min-height: 45rem;
   background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("intro.jpg");
   background-size: cover;
   background-position: center;
@@ -82,29 +77,8 @@ header {
 .navbar-default .navbar-nav>li>a:hover {
   color: #771b02;
 }
-/*Projects*/
 
-.trump {
-  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://images6.alphacoders.com/592/592187.jpg");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  text-align: center;
-  height: 70rem;
-}
-
-.project {
-  background-color: white;
-  background-size: cover;
-  background-position: center;
-  background-attachment: local;
-  text-align: center;
-  height: 70rem;
-}
-
-.project img {
-  margin-top: 5rem;
-}
+/*About*/
 
 .about img {
   border-radius: 20rem;
@@ -114,12 +88,42 @@ header {
 
 .about a:link,
 .about a:visited {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .about a:hover,
 .about a:active {
   text-decoration: none;
+}
+
+.desctription {
+  list-style: none;
+}
+
+/*Projects*/
+
+.trump, .project {
+  height: 60rem;
+  margin-bottom: 2rem;
+}
+.trump {
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://images6.alphacoders.com/592/592187.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+.project {
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  background-attachment: local;
+  text-align: center;
+}
+
+.project img {
+  margin-top: 5rem;
 }
 
 .btn-quote {
