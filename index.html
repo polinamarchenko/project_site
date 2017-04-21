@@ -4,14 +4,34 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:200,600i,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <script src="https://use.fontawesome.com/ee7b7f5360.js"></script>
-    <title>Trump App</title>
+    <title>Polina's Fun Projects</title>
   </head>
   <body>
     <header>
-      <h1>My fun projects</h1>
+      <h1>Welcome to my world</h1>
     </header>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Polina</a></li>
+            <li><a href="#">Proooojects</a></li>
+          </ul>
+        </div>  
+    </nav>
     <section class="trump center">
       <h2>Make America <span>look weird</span> Again</h2>
       <button class="btn-quote" onclick="getGif(); getQuote();" type="button" name="button">NEW QUOTE &amp; GIF</button>

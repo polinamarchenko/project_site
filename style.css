@@ -5,6 +5,12 @@ body {
   text-align: center;
 }
 
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
 .trump {
   background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://images6.alphacoders.com/592/592187.jpg");
   background-size: cover;
@@ -15,7 +21,7 @@ body {
 .center {
   margin: auto;
   width: 70%;
-  padding: 10px;
+  padding: 1rem;
 }
 
 .btn-quote {
@@ -29,8 +35,12 @@ body {
 }
 
 a {
-  font-size: 40px;
+  font-size: 4rem;
   color: red;
+}
+
+li a {
+  font-size: 2rem;
 }
 
 .gif {
@@ -45,15 +55,15 @@ span {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 5rem;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 4rem;
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 3rem;
   font-weight: 600;
   font-style: italic;
 }
